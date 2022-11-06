@@ -1,0 +1,63 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	background-color: #434750;
+	color: #F1F1F1;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	padding: 20px 5%;
+	text-align: center;
+	border-bottom: 1px solid #F1F1F1;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+h1, h2 {
+	font-family: 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+	margin-top: 20px;
+}
+
+.lists {
+	padding: 0 5%;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+ol {
+	list-style-position: inside;
+}
+
+li {
+	margin: 10px 20px 0 0;
+}
+
+i {
+	font-family: 'Times New Roman', sans-serif;
+}
+
+.images {
+	padding: 0 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.facts {
+	padding: 0 5%;
+}
